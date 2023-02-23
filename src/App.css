@@ -6,6 +6,9 @@
 .taskCreate {
   width: 450px;
 }
+.taskUpdate {
+  width: 100%;
+}
 .taskForm {
   display: flex;
   flex-direction: column;
@@ -27,6 +30,10 @@
   border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
+}
+.update-button {
+  background-color: lightgreen;
+  font-size: 15px;
 }
 .task-show {
   width: 350px;
