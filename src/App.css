@@ -28,3 +28,44 @@
   font-size: 20px;
   cursor: pointer;
 }
+.task-show {
+  width: 350px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.task-h {
+  margin-bottom: 5px;
+}
+.task-list {
+  display: flex;
+  display: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.task-delete {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 70px;
+  font-size: 15px;
+  background-color: lightcoral;
+  margin: 5px;
+  color: white;
+  cursor: pointer;
+}
+.task-edit {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  font-size: 15px;
+  background-color: lightgreen;
+  margin: 5px;
+  color: white;
+  cursor: pointer;
+}

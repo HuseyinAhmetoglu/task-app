@@ -1,10 +1,12 @@
 import React from "react";
+import TaskShow from "./TaskShow";
 
-export default function TaskList() {
-
+export default function TaskList({ tasks }) {
   return (
-    <div>
-      <h2>Görevler</h2>
+    <div className="task-list">
+      {tasks.map((task, index) => {
+        return <TaskShow task={task} key={index} />;
+      })}
     </div>
   );
 }
