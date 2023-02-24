@@ -53,13 +53,13 @@ export default function TaskCreate({ task, updateMod, onUpdate }) {
         <div className="taskCreate">
           <h3>Lütfen Task Ekleyiniz!</h3>
           <form className="taskForm">
-            <label className="taskLabel">Başlık</label>
+            <label className="taskLabel">Başlık Giriniz</label>
             <input
               className="taskInput"
               value={title}
               onChange={handleChangeTitle}
             />
-            <label className="taskLabel">Task</label>
+            <label className="taskLabel">Görev Giriniz</label>
             <textarea
               className="taskInput"
               rows={5}

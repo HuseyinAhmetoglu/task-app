@@ -1,3 +1,14 @@
 {
-  "tasks": []
+  "tasks": [
+    {
+      "title": "Task1",
+      "text": "Görev 1\nGörev 2",
+      "id": 1
+    },
+    {
+      "title": "Task2",
+      "text": "Görev 1\ngörev 2",
+      "id": 2
+    }
+  ]
 }
